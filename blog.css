@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Zilla Slab", serif;
+}
+.question{
+    color: white;
+    padding: 10px;
+    background-color: #444;
+    margin: 5px;
+    border-radius: 10px;
+}
