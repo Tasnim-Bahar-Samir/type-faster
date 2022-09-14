@@ -4,12 +4,29 @@
     box-sizing: border-box;
   }
 body {
+    background-color: #333;
     font-family: "Zilla Slab", serif;
+}
+header h1{
+    text-align: center;
+    margin: 15px 0 25px;
+    font-size: 35px;
+    color: salmon;
 }
 .question{
     color: white;
-    padding: 10px;
+    padding: 20px;
     background-color: #444;
-    margin: 5px;
+    margin: 10px 30px;
     border-radius: 10px;
+    transition: .3s;
+}
+.question h2{
+    margin-bottom: 8px;
+}
+.question p{
+    font-size: 18px;
+}
+.question:hover{
+    outline: 3px solid salmon;
 }
